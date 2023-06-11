@@ -1,0 +1,39 @@
+.topbar{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    position: sticky; 
+    top: 0;
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topLeft{
+    flex: 1;
+    display: flex; 
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.login{
+    padding: 0px 20px;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.logoDrone{
+    width: 4em;
+    cursor: pointer;
+}

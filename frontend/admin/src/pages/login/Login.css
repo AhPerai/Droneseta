@@ -1,0 +1,53 @@
+.loginWrapper{
+    height: calc(80vh - 55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginTitle{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.loginForm{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginInput, .loginButton{
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    max-width: 30vw;
+}
+
+.loginButton{
+    background-color: teal;
+    border: 2px solid teal;;
+    color: white;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.loginButton:hover{
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+}
+
+.error{
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgba(252, 232, 232, 1);
+    border-radius: 2px;
+    border: 2px solid rgba(255, 159, 159, 1);
+    color: rgba(181, 104, 104, 1) ;
+    font-size: 14px;
+    padding: 15px 5px;
+    width: 100%;
+}
